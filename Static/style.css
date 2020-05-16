@@ -1,0 +1,40 @@
+html {
+    display: table;
+    margin: auto;
+}
+.grid{
+    height: 400px;
+    width: 200px;
+    display: flex;
+    /* view:flex; */
+    flex-wrap: wrap;
+    padding: 0%;
+    background-color: yellow;
+
+}
+.grid div {
+    width: 20px;
+    height: 20px;
+    /* padding: 1px;; */
+    /* background-color: red; */
+}
+
+.tetromino{
+    background-color: blue;
+}
+
+.mini-grid {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+  }
+
+  
+  .mini-grid div {
+    height: 20px;
+    width: 20px;
+  }
